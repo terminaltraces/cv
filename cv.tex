@@ -1,0 +1,263 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+\moderncvstyle{banking}                             
+\moderncvcolor{blue}                               
+\renewcommand{\familydefault}{\sfdefault}         
+
+% character encoding
+\usepackage[utf8]{inputenc}                       
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\name{Drew}{Williams}
+\title{Curriculum vitae}
+\email{drew@dmariew.me}
+\homepage{http://dmariew.me}
+\social[twitter]{terminaltraces}
+\social[gitlab]{terminaltraces}                              % optional, remove / comment the line if not wanted
+\social[skype]{drewmwill}   
+% bibliography with mutiple entries
+\usepackage{multibib}
+\newcites{chapters,journals,conferences,posters}{{Book Chapters},{Journal Papers},{Conference Papers},{Posters}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Drew Williams}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\thispagestyle{empty}
+%-----       resume       ---------------------------------------------------------
+
+\makecvtitle
+
+\section{Education}
+\cventry{Dec. 2018}{Doctor of Philosophy Degree in Computational Sciences}{Marquette University}{Milwaukee, WI}{3.72}{
+	\begin{itemize}%
+	\item Dissertation Title: "Developing Accessible Collection and Presentation Methods for Observational Data"
+	\item Research Directions: Human-Computer Interaction, Accessibility, Big Data
+	\item Notable Courses Taken: Probability, Parallel and Distributed Computing, Simulation, Applied Linear Algebra, Applied Mathematical Analysis
+	\end{itemize}}
+\cventry{June 2014}{Master of Science Degree in Computing}{Marquette University}{Milwaukee, WI}{3.83}{
+	\begin{itemize}%
+    	\item Thesis Title: "Designing Educational and Intelligent Human-Computer Interfaces for Older Adults"
+        \item Research Directions: Human-Computer Interaction, Intelligent Interfaces, Accessibility
+		\item Notable Courses Taken: Principles of Database Systems, Enterprise Architecture, Elements of Software Development, Human Factors Engineering
+   	\end{itemize}}
+\cventry{May 2012}{Bachelor of Science Degree in Computer Science}{University of Chicago}{Chicago, IL}{2.93}{
+	\begin{itemize}%
+	\item Notable Courses Taken: Introduction to Formal Languages, Theory of Algorithms, Operating Systems, Advanced Distributed Systems
+	\end{itemize}}
+\cventry{June 2007}{High School Diploma}{Milwaukee High School of the Arts}{Milwaukee, WI}{4.00}{
+	\begin{itemize}%
+	\item Major: Creative Writing
+	\end{itemize}}
+    
+\section{Experience}
+	\subsection{Research}
+	\cventry{August 2018--December 2018}{Graduate Research Assistant}{Marquette University}{Milwaukee, WI}{}{
+	\begin{itemize}%
+	\item Provided in-person and document-based support for distance learning professors in Computing Department.
+	\end{itemize}}
+	\cventry{May 2017--August 2018}{Graduate Research and Teaching Assistant}{Marquette University}{Milwaukee, WI}{}{
+	\begin{itemize}%
+	\item Acted as current TA for students in Marquette University's COSMIC program (for students looking to change careers.)  Provide moral support and assistance in learning Python and Java during the summer-long bootcamp and all classes beyond.  Share applicable opportunities with students throughout the school year and provide regular office hours.
+	\end{itemize}}
+	\cventry{January 2017--May 2017}{Web Developer/Research Assistant}{University of Wisconsin-Milwaukee}{Milwaukee, WI}{}{
+	\begin{itemize}%
+	\item Created an accessible archive website utilizing a modern JavaScript stack (React, Express, NodeJS, RethinkDB, etc.)
+	\item Added search engine functionality via implementation of a ElasticSearch engine.
+	\end{itemize}}
+    \cventry{August 2016--January 2017}{Graduate Research Assistant}{Marquette University}{Milwaukee, WI}{}{
+	\begin{itemize}%
+	\item Assist in community outreach for Computing Department, and provide in-person and document-based support for distance learning professors in Computing Department.
+	\end{itemize}}
+    \cventry{July 2016--August 2016}{Graduate Research Assistant and Web Developer}{Marquette University, UW-Milwaukee}{Milwaukee, WI}{}{
+	\begin{itemize}%
+	\item Continuation of Summer Research Fellowship. Additionally, worked on a project involving an accessible archival website using NodeJS and React for R2D2 Center of UW-Milwaukee.
+	\end{itemize}}
+	\cventry{May 2016--July 2016}{Computational Sciences Summer Research Fellow}{Marquette University, UW-Milwaukee}{Milwaukee, WI}{}{
+	\begin{itemize}%
+	\item Develop a cross-platform application for creating usable and accessible surveys as part of a research project with the University of Wisconsin-Milwaukee and Marquette University.
+	\end{itemize}}
+	\cventry{Aug. 2015--Dec. 2015}{Computing Department Research Assistant}{Marquette University}{Milwaukee, WI}{}{
+	\begin{itemize}% 
+	\item Wrote computer and software documentation for professors teaching distance learning classes under the supervision of Computing program director Dr. Kaczmarek.  
+	\item Acted as the distance learning support contact for professors after-hours.
+	\end{itemize}}
+	\cventry{May 2013--May 2015}{Grant Research Assistant/Lab Manager}{Ubicomp Lab @ Marquette University}{Milwaukee, WI}{}{
+		\begin{itemize}%
+			\item Managed Ubicomp Lab for a year (2014-2015) and oversaw general management of lab's 7+ grant-funded projects, in addition to maintaining lab's website and assisting lab director in various organizational tasks.
+			\item Co-developed a slope measurement application, font measurement application, and access ratings tool application for accessibility ratings project in conjunction with UW-Milwaukee.
+			\item Developed an android-based SMS server to send and receive text messages from a Microsoft Azure database of pre-created motivational SMS messages and phone numbers.  
+			\item Tested and co-developed an iPad app to help Smoking Cessation counselors conduct progress surveys.
+			\item Designed guidelines for intelligent and interactive human-computer interfaces for elderly adults as part of Masters' Thesis work.
+			\item Led team of students in developing a mobile camera-based and breathalyzer-based blood glucose monitor.
+		\end{itemize}}
+	\subsection{Teaching}
+	\cventry{Jan. 2016--May 2016}{Teaching Assistant}{Marquette University}{Milwaukee, WI}{}{
+	\begin{itemize}%  
+	\item Graded student assignments and exams for COSC 3100 (Data Structures 2) under guidance of the course professor, Dr. Niharika Jain.  
+	\item Provided office hours and on-demand help for about 30 high school and undergraduate students across two sections.
+	\end{itemize}}
+	\subsection{Vocational}
+	\cventry{May 2015--Aug. 2015}{Software Technology Intern}{Intel Corporation}{Hillsboro, OR}{}{
+	\begin{itemize}%  
+	\item Co-developed a Commercial IoT demonstration with Intel's IoT Evangelism Team using the Intel Edison platform, MQTT, and NodeJS.  
+	\begin{itemize}
+		\item \textbf{Demo was presented at the 2015 Intel Developer Forum.}
+	\end{itemize}
+	\item Assisted hackathon attendees with the Intel Edison platform at company-initiated hackathons.
+	\item Assisted with editing documentation for the Intel Edison for hackathon attendees.
+	\item Volunteered time to guide and inspire high school students working on projects built as part of Intel-sponsored mini-internships.
+	\end{itemize}}
+	\cventry{Oct. 2012--Apr. 2013}{QA/Documentation Intern}{iStream Financial Services}{Brookfield, WI}{}{
+	\begin{itemize}%  
+	\item Tested and wrote documentation and test cases for check cashing software.
+	\item Led company efforts in beginning the use of automation software in testing procedures. 
+	\item Assisted with fellow intern in quality assurance work, creating test cases in SpiraTest and executing said tests on the company website.  
+	\item Documented various processes and assisted with design of the upcoming company wiki.
+	\end{itemize}}
+	\cventry{July 2012--Oct. 2012}{Geek Squad Advanced Repair Agent}{Best Buy}{Greenfield, WI}{}{
+	\begin{itemize}%  
+	\item Installed and repaired hardware and software for customers.  
+	\item Tuned up computers and removed errant programs (i.e. malware (rootkits, etc) and viruses).  
+	\item Consulted with customers and answered Mac OS and Windows questions.
+	\end{itemize}}
+	\cventry {Oct. 2011–-June 2012}{Website Administrator}{Hyde Park Languages} {Chicago, IL}{}{
+	\begin{itemize}% 
+	\item Performed tasks related to maintaining and updating an HTML website.
+	\end{itemize}}
+	\cventry {Oct. 2009--June 2012}{Student Computing Assistant}{University of Chicago}{Chicago, IL}{}{
+	\begin{itemize}%
+	\item Installed hardware and software, tuned up computers and removed malware/viruses from dean/counselor's computers.	
+	\item Designed a department website for the Biological Sciences Collegiate Division using Drupal 6.0.
+	\item Performed preliminary set up tasks and maintenance tasks for labs at the Biological Sciences Collegiate Division and new computers within the College.
+	\item Acted as contact for advisers and deans regarding computer order pickup, computer-related questions, and general computer problems (applications behaving strangely, etc).  
+	\end{itemize}}
+	\cventry {Aug. 2007--June 2008}{Utility Clerk/Produce Clerk}{Roundy's Supermarkets, Inc}{Oak Creek, WI}{}{
+	\begin{itemize}%
+	\item Bagged groceries, performed general cleaning duties and retrieved carts as a Utility Clerk.
+	\begin{itemize}%
+		\item Recognized for outstanding customer service by the store in this role.
+	\end{itemize}	
+	\item Cleaned the salad bar, cut and arranged fruit for the floor as a Produce Clerk.
+	\item Performed cashiering duties when needed.
+	\end{itemize}}
+	\subsection{Volunteer}
+	\cventry{Mar. 2016--present}{Technical Volunteer}{Unity Church of Milwaukee}{Wauwatosa, WI}{}{Maintain website and administer Microsoft Powerpoint slides for services.}
+	\cventry{Mar. 2016}{Technical Volunteer}{Black Girls Code Chicago}{Chicago, IL}{}{Assisted in teaching young girls of color (ages 7-17) how to build their own mobile applications.}
+	\cventry{Aug. 2014--June 2015}{Web Chair}{IEEE COMPSAC}{Taichung, Taiwan}{}{Assisted in managing web content, updating dates, finding venue information and
+photographs for website.}
+
+
+\section{Other Notable Projects}
+\cvlistitem{\textbf{Raspberry Pi Cluster (2015).}   Project undertaken as part of coursework towards Doctor of Philosophy Degree in Computational Sciences.  Created a cluster from four Raspberry Pi 2 devices in a team, and benchmarked the speed improvement as a result of the clustering with the popular High Performance Linpack (HPL) set of tests.}
+\cvlistitem{\textbf{PassPlay (2012).}   Project undertaken as part of coursework towards Master of Science Degree in Computing.  Created a proof-of-concept application for authenticating with an Android smartphone with a team.  Application utilized a 3D model which a user would pose in a particular way in order to unlock a phone.}
+\cvlistitem{\textbf{RoomGuard: Arduino-Based Personal Security System (2012).}   Project undertaken as part of coursework towards Master of Science Degree in Computing.  Created an Arduino configuration to capture light and motion data for a small room.  Data was forwarded to ThingSpeak, a web service that monitors incoming data for numbers of interest.  Push notifications enabled for Android devices and iOS devices for room entry.  Developed an Android application that allowed the data to be monitored continuously.}
+\cvlistitem{\textbf{Arduino-Powered Furby Choreography (2011).}   Project undertaken as part of coursework toward Bachelor of Science in Computer Science.  Controlled the motor of a Hasbro Furby toy with an Arduino using an H-Bridge.  Connected a new speaker to the Furby and played sine waves from the Arduino over the speaker, while controlling a choreographed motion.}
+
+\section{Research Interests}
+\cvitem{Human-Computer Interaction}{Maximizing usability of different computer interfaces.}
+\cvitem{Accessibility and Universal Design}{Designing interfaces that can be used by the largest number of people.}
+\cvitem{Intelligent and Adaptive Interfaces}{Developing interfaces that adapt to a user's needs.}    
+\cvitem{Internet of Things}{Using internet-connected systems of devices to solve problems.}
+\cvitem{Security and Privacy}{Issues of security and privacy in personalization of interface design, IoT systems, mobile health systems.}
+
+% Publications from a BibTeX file using the multibib package
+\section{Publications}
+
+\nocitechapters{*}
+\bibliographystylechapters{bibtext-styles/IEEEtran}
+\bibliographychapters{chapters}   
+
+\nocitejournals{*}
+\bibliographystylejournals{bibtext-styles/IEEEtran}
+\bibliographyjournals{journals}               
+
+\nociteconferences{*}
+\bibliographystyleconferences{bibtext-styles/IEEEtran}
+\bibliographyconferences{conferences}                   
+
+\nociteposters{*}
+\bibliographystyleposters{bibtext-styles/IEEEtran}
+\bibliographyposters{posters}                  
+
+\section{Presentations}
+\cvlistitem{ \textbf{July 14th, 2018 -- 2018 Rehabilitation Engineering and Assistive Technology Society of North America National Conference -- Washington, DV}\\
+ Presenting the paper "The symbiotic relationship between accessible features of information and effective research inquiry," \textbf{winner of an honorable mention in the 2018 Student Scientific Paper Awards.}}
+\cvlistitem{ \textbf{June 28th, 2017 -- 2017 Rehabilitation Engineering and Assistive Technology Society of North America National Conference -- New Orleans, LA}\\
+ Presented the paper "Developing an Accessible Archival Website."}
+\cvlistitem{ \textbf{June 21st, 2013 -- 2013 Rehabilitation Engineering and Assistive Technology Society of North American National Conference -- Bellevue, WA}\\
+Presented the paper "Measuring Font Signage with a Smartphone Application for ADAAG Compliance Assessment."}
+
+\section{Talks and Panels}
+\cvlistitem{ \textbf{April 27th, 2018 -- Ethics of Big Data Symposium -- Milwaukee, WI}\\
+ Speaker during the "Data Science Oath" Presentation.  Discussed bias in data collection.}
+\cvlistitem{ \textbf{April 19th, 2018 -- Milwaukee High School of the Arts Career Day -- Milwaukee, WI}\\
+Alumni speaker, discussed potential careers for art students in STEM.}
+\cvlistitem{ \textbf{June 15th, 2016 -- Write/Speak/Code 2016 -- Chicago, IL}\\
+ Panelist on the "Writing for Developers" Panel.  Discussed writing tips and strategies for female developers.}
+
+\section{Awards and Achievements}
+\cvlistitem { \textbf{2018 RESNA Student Scientific Paper Awards (Honorable Mention) -- July 2018}\\
+Awarded for research merit of the paper, "The symbiotic relationship between accessible features of information and effective research inquiry."}
+\cvlistitem { \textbf{2016 Social Innovation Grant -- November 2016}\\
+Awarded during the Marquette University Forward Thinking Poster Session, along with a \textbf{\$1000 grant.}}
+\cvlistitem { \textbf{Grace Hopper Conference Scholarship -- May 2016}\\
+Awarded for travel to the yearly Grace Hopper conference in Houston, TX.  Competitive.}
+\cvlistitem { \textbf{Graduate School Travel Grant for RESNA 2016 -- May 2016}\\
+Awarded for travel to present a poster at RESNA/NCART 2016.}
+\cvlistitem{ \textbf{Computational Sciences Summer Research Fellowship Award -- April 2016}\\
+ Competitive award given to fund 8 weeks of personal research during the summer.}
+\cvlistitem { \textbf{CRA-W Grad Cohort Workshop Travel and Accomodation Grant -- April 2016}\\
+	Awarded for travel to the CRA-W Graduate Cohort for women in computing majors.}
+\cvlistitem { \textbf{AISES National Conference ASSIST Grant [NSF-Funded] -- November 2015}\\
+Awarded for travel to the American Indian Science and Engineering Society's National Conference.}
+\cvlistitem { \textbf{Intel Employee Recognition -- August 2015}\\
+Awarded in recognition of time volunteered to help high school students with mini-internships.}
+\cvlistitem { \textbf{Intel Employee Recognition -- July 2015}\\
+Awarded in recognition of efforts/weekend work put forth to finish IDF demo on time.}
+\cvlistitem { \textbf{CRA-W Grad Cohort Workshop Travel and Accomodation Grant -- April 2015}\\
+Awarded for travel to the CRA-W Graduate Cohort for women in computing majors.}
+\cvlistitem { \textbf{AISES Leadership Summit Travel Grant -- March 2015}\\
+Awarded for travel to the American Indian Science and Engineering Society's yearly Leadership Summit}
+\cvlistitem { \textbf{AISES/Intel Foundation Scholarship [Intel Scholar] -- October 2014 – May 2015}\\
+Very competitive scholarship awarded for tuition and books.}
+\cvlistitem { \textbf{Broadening Participation Workshop (UBICOMP 2014) Travel Grant -- September 2014}\\
+Awarded for travel to attend the 2014 Broadening Participation Workshop at UBICOMP 2014, in addition to conference attendance.}
+\cvlistitem { \textbf{Graduate School Travel Grant for RESNA 2014 -- May 2014}\\
+Awarded for travel to present a poster at RESNA/NCART 2016.}
+\cvlistitem { \textbf{A.T. Anderson Memorial Scholarship -- November 2013 – May 2014}\\
+Competitive scholarship awarded for tuition and books.}
+\cvlistitem { \textbf{Best Poster Award in International Research Poster Session, Marquette University -- December 2013}\\
+Awarded for merit of poster submitted to the International Research Poster Session.}
+\cvlistitem { \textbf{Merit Scholarship, University of Chicago -- August 2008 - June 2012}\\
+Awarded for academic achievement during High School.}
+
+\section{Languages}
+\cvitemwithcomment{English}{Native Speaker}{}
+\cvitemwithcomment{Spanish}{Beginner+}{}
+\cvitemwithcomment{Japanese}{Beginner}{}
+
+\section{Professional Organizations/Affiliations}
+\cvlistitem{Intel Innovator [IoT/Intel Edison]}
+\cvlistitem{American Indian Science and Engineering Society \textbf{[Sequoyah Fellow]}}
+\cvlistitem {Society of Women Engineers - Student Member}
+\cvlistitem {Institute of Electrical and Electronics Engineers - Student Member}
+\cvlistitem {Association for Computing Machinery - Student Member}
+
+\section{Computer skills}
+\cvdoubleitem{Programming}{Node.JS, Javascript, C/C++, Objective C, Java, MySQL, HTML/HTML5, CSS/CSS3, Python}{IDEs}{Android Studio, Xcode, Eclipse, Canopy, Texmaker, Matlab, Mathematica, Visual Studio, LiveCode}
+\cvdoubleitem{Applications}{Microsoft Office, Adobe Photoshop, Selenium, SpiraTest, Basecamp, Trello}{Technical Skills}{Video Editing, Image Editing, Troubleshooting, Hardware and Software Repair}
+\cvdoubleitem{Operating Systems}{Mac, Windows, Linux (Ubuntu/Fedora/Arch)}{Platforms}{Arduino, Raspberry Pi, Intel Edison, iOS, Android}
+
+\section{Hobbies}
+\cvitem{Illustration}{Painting, drawing, comic creation}
+\cvitem{Writing}{Fiction, non-fiction, blogging}
+\cvitem{Maker Projects}{Arduino, Raspberry Pi, microcontrollers, soldering.}                
+\cvitem{Music}{Vocals, music production, mixing, piano}
+
+\end{document}

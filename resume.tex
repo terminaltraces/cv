@@ -1,0 +1,93 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+\moderncvstyle{classic}                             
+\moderncvcolor{blue}                               
+\renewcommand{\familydefault}{\sfdefault}         
+
+\usepackage[utf8]{inputenc}                       
+\usepackage[scale=0.75]{geometry}
+
+\name{Drew}{Williams}
+\title{Software Engineer}
+\email{drew@dmariew.me}
+\homepage{http://dmariew.me}
+\social[twitter]{terminaltraces}
+\social[gitlab]{terminaltraces}                              
+\social[skype]{drewmwill}   
+\photo[64pt][0.4pt]{selfie} 
+
+\usepackage{multibib}
+\newcites{chapters,journals,conferences,posters}{{Book Chapters},{Journal Papers},{Conference Papers},{Posters}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Drew Williams}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\thispagestyle{empty}
+%-----       resume       ---------------------------------------------------------
+
+	\makecvtitle
+
+	\section{Experience}
+
+		\subsection{Vocational}
+		\cventry{May 2015--Aug. 2015}{Software Technology Intern}{Intel Corporation}{Hillsboro, OR}{}{Developed an IoT demo using the Intel Edison 
+		platform, MQTT, and NodeJS (presented at the 2015 Intel Developer Forum).  Mentored participants of Intel hackathons and evangelized Intel 
+		technology.  Produced high-quality documentation for configuring the Intel Edison.}
+		\cventry{Oct. 2012--Apr. 2013}{QA/Documentation Intern}{iStream Financial Services}{Brookfield, WI}{}{Tested and wrote documentation/test cases 
+		for check cashing software.  Led company efforts in beginning the use of automation software in testing procedures. Assisted fellow intern in 
+		quality assurance work, creating test cases in SpiraTest and executing said tests.}
+		
+		\subsection{Research and Development}
+		\cventry{January 2017--May 2017}{Web Developer/Research Assistant}{University of Wisconsin-Milwaukee}{Milwaukee, WI}{}{Created an accessible archive 
+		website utilizing a modern JavaScript stack (React, Express, NodeJS, RethinkDB, etc.) Added search engine functionality via implementation of an 
+		ElasticSearch engine.}
+		\cventry{July 2016--August 2016}{Graduate Research Assistant and Web Developer}{Marquette University, UW-Milwaukee}{Milwaukee, WI}{}{Continued
+		development of a cross-platform desktop application for completing surveys in occupational therapy.  Initiated work on a project involving developing 
+		an accessible archival website using NodeJS and React.}
+		\cventry{May 2016--July 2016}{Computational Sciences Summer Research Fellow}{Marquette University, UW-Milwaukee}{Milwaukee, WI}{}{Developed a cross-
+		platform application for creating usable and accessible surveys, written in LiveCode for the Windows/Mac desktop.}
+		\cventry{May 2013--May 2015}{Grant Research Assistant/Lab Manager}{Ubicomp Lab @ Marquette University}{Milwaukee, WI}{}{Lead multiple teams across 
+		7+ grant-funded projects, using agile principles to consistently meet deadlines. Developed iOS access ratings, slope, and font tools in Objective-C 
+		for interdisciplinary project with UW-Milwaukee.  Developed Android-based SMS server in Java and an iPad assessment app in Objective-C for a smoking 
+		cessation project.}
+
+	\textbf{Further employment history available upon request.}
+	\newpage
+	
+	\section{Education}
+	\cventry{Dec. 2018}{Doctor of Philosophy in Computational Sciences}{Marquette University}{Milwaukee, WI}{}{}
+	\cventry{June 2014}{Master of Science in Computing}{Marquette University}{Milwaukee, WI}{}{}
+	\cventry{May 2012}{Bachelor of Science in Computer Science}{University of Chicago}{Chicago, IL}{}{}
+
+	\section{Talks and Panels}
+		\cvlistitem{ \textbf{April 27th, 2018 -- Ethics of Big Data Symposium -- Milwaukee, WI}\\
+			Spoke during the "Data Science Oath" presentation on bias in data collection.}
+		\cvlistitem{ \textbf{April 19th, 2018 -- MHSA Career Day -- Milwaukee, WI}\\
+			Alumni speaker, discussed potential careers for art students in STEM.}
+		\cvlistitem{ \textbf{June 15th, 2016 -- Write/Speak/Code 2016 Writing Panelist -- Chicago, IL}\\
+			Discussed writing tips and strategies for female developers.}
+
+	\section{Recent Awards/Achievements}
+		\cvlistitem { \textbf{AISES/Intel "Growing the Legacy" Scholarship -- August 2018}}
+		\cvlistitem { \textbf{Graduate School Travel Grant for RESNA 2018 -- July 2018}}
+		\cvlistitem { \textbf{RESNA Student Scientific Paper Awards (Honorable Mention) -- July 2018}}
+		\cvlistitem { \textbf{Social Innovation Grant -- November 2016}}
+		\cvlistitem { \textbf{Grace Hopper Conference Scholarship -- May 2016}}
+		\cvlistitem { \textbf{Graduate School Travel Grant for RESNA 2016 -- May 2016}}
+		\cvlistitem{ \textbf{Computational Sciences Summer Research Fellowship Award -- April 2016}}
+
+	\section{Professional Organizations/Affiliations}
+		\cvlistitem{Intel Innovator [IoT/Intel Edison]}
+		\cvlistitem{American Indian Science and Engineering Society \textbf{[Sequoyah Fellow]}}
+		\cvlistitem {Institute of Electrical and Electronics Engineers - Student Member}
+		\cvlistitem {Association for Computing Machinery - Student Member}
+
+	\section{Computer skills}
+		\cvdoubleitem{Programming}{Node.JS, Javascript, C/C++, Objective C, Java, MySQL, HTML/HTML5, CSS/CSS3, Python}{IDEs}{Android Studio, Xcode, Eclipse, Canopy, Texmaker, Matlab, Mathematica, Visual Studio, LiveCode}
+		\cvdoubleitem{Applications}{Microsoft Office, Adobe Photoshop, Selenium, SpiraTest, Basecamp, Trello}{Technical Skills}{Video Editing, Image Editing, Troubleshooting, Hardware and Software Repair}
+
+\end{document}
