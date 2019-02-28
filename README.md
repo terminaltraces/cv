@@ -1,8 +1,4 @@
-# CV: An Automated Resume Generator
+# Resume and CV 
+This repository contains my resume and CV in PDF form, generated via LaTeX.  
 
-I, like many, am bad at keeping my cv/resume updated.  To fix this, I decided to 
-set up a resume repository that automatically keeps track of changes made to my
-cv/resume.
-
-Thanks to GitLab's CI/CD, PDFs will be generated upon successful commit! To 
-download my latest resume updates, click [here](https://gitlab.com/terminaltraces/cv/-/jobs/artifacts/master/download?job=build).
+My resume and CV can be downloaded from the compiled PDFs in this folder.  All other files need to be compiled with LaTeX to generate the PDFs.
